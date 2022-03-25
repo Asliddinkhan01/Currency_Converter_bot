@@ -8,5 +8,5 @@ public class Constants {
     public static final String botToken = ""; //add your bot token
     public static final String ACCOUNT_SID = ""; //add your twilio sid
     public static final String AUTH_TOKEN = ""; //add your twilio token
-    public static final String MESSAGE_SID = " "; //add your twilio sid
+    public static final String MESSAGE_SID = ""; //add your twilio sid
 }
