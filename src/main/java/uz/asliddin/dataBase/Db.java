@@ -16,7 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static uz.asliddin.util.MyUtil.BLUE;
 
 
 //Asliddin Kenjaev 12/18/2021 4:49 PM
@@ -45,6 +44,6 @@ public class Db {
             e.printStackTrace();
         }
 
-        System.out.println(BLUE+"Db is ready !!! ");
+        System.out.println("Db is ready !!! ");
     }
 }

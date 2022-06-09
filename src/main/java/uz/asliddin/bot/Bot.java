@@ -283,6 +283,7 @@ public class Bot extends TelegramLongPollingBot {
                 Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
                 int sendingRandom = (int) (Math.random() * 9001 + 1000);
                 randomSmsCode = sendingRandom;
+                System.out.println(randomSmsCode);
                 com.twilio.rest.api.v2010.account.Message message = com.twilio.rest.api.v2010.account.Message.creator(
                         phoneNumber, MESSAGE_SID, String.valueOf(sendingRandom)
                 ).create();
